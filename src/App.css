@@ -1,0 +1,189 @@
+*{
+  
+  padding: 0;
+}
+
+:root{
+  --rojo: #EB5757;
+}
+
+.filterSearch{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.titleCards{
+  color: #333333;
+}
+
+.cards{
+  display: grid;
+  max-width: 1280px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.nav{
+  position: fixed;
+  height: 20rem;
+  width: 100%;
+  background-color: white;    
+}
+
+.contImg, .logo{  
+  height: 10;  
+}
+
+.modal{
+  position: fixed;
+  height: 100rem;
+  width: 100rem;
+  background-color: grey;
+  opacity: 60%;
+  margin: 0;
+}
+
+.navSearch{
+  display: flex;
+}
+
+.navIni{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 2rem;
+  border-radius: 16px; 
+}
+
+.navIniCh{
+  display: flex;
+  font-family: 'Mulish';
+  font-weight: 400;
+    
+}
+
+.select{
+  height: 3rem;
+  width: auto;
+  border-color: #F2F2F2;  
+}
+
+.select2{
+  height: 3rem;
+  width: 8rem;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #F2F2F2;
+}
+
+.s1{
+  border-radius: 16px 0px 0px 16px;
+  border-right: #ffffff;
+}
+
+.s2{
+  border-right: #ffffff;
+}
+
+.btnSearch1{
+  border-radius: 0px 16px 16px 0px;  width: 4rem;  
+}
+
+.s1M{
+  background-color: white;
+  height: 2rem;
+  border-style: none;
+}
+.label{
+  display: block;
+  font-weight: 800;
+  font-size: 9px;  
+}
+
+.label, .select, .select2, .muli {
+  font-family: 'Mulish';  
+}
+
+.material-symbols-outlined{
+  color: var(--rojo);
+}
+
+input:hover, button:hover{
+  cursor: pointer;  
+}
+
+.containerButton{
+  height: 3.2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F2F2F2;
+  width: 25rem;
+  border-radius: 15px;
+  padding-left: .5rem;
+  
+  
+  
+}
+
+.containerButton2{
+  height: 3.2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F2F2F2;
+  width: 25rem;
+  border-radius: 15px;
+  padding-left: .5rem;
+  
+  
+  
+}
+.btnFilterLocation{
+  background-color: white;
+  border-style: none;
+  margin: .3rem;
+}
+
+.BtnS2{
+  background-color: #EB5757;
+  color: white;
+  border-radius: 15px;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 9rem;
+}
+
+.lup{
+  color:white;
+}
+
+.btnFilterLocationCont{
+  display: flex;
+  align-items: center;
+}
+
+.btnlup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerButton:hover{
+  border-color: #333333;
+  cursor: pointer;
+}
+
+.guest{
+  font-size: 14px;
+  font-weight: 800;
+  color: #333333;
+}
+
+.guest2{
+  font-size: 14px;
+  font-weight: 400;
+  color: #BDBDBD;
+}
